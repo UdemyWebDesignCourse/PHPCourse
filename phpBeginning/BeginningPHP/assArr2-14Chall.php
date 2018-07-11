@@ -8,7 +8,7 @@
     <title>Document</title>
     
 </head>
-<?php 
+<?php  
     $var1 = 10;
     $var2 = 20;
     $added = $var1+$var2;

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     
-</head>
+</head> 
 <?php 
    $var = 18;
    // The breaks make it to where the program flow will exit once one of the case are true

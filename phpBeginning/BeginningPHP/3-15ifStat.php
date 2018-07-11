@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     
-</head>
+</head> 
 <?php 
     // if(3 > 10 == true ){
     //     echo "three is less than <b>ten</b><br>";

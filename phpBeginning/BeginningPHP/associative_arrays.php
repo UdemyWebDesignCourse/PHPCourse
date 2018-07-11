@@ -8,7 +8,7 @@
     <title>Document</title>
     
 </head>
-<?php 
+<?php  
     $number = array(3,4,6,5);
     $otherNumber = array('fuck','face','nace');
     echo $number[2] . '<br>';
