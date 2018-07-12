@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,35 +9,35 @@
 <body>
 
 <?php
-    if (5 > 2){
-        echo 'I hate php';
+    if (5 <2){
+        echo 'I hate php <br>';
     } else if(2<1){
-        echo 'I like php';
+        echo 'I like php<br>';
     } else {
-        echo 'I love php';
+        echo 'I love php<br>';
     }
     for($int=0;$int<5;$int++){
-        echo 'number from forloop '.$int;
+        echo 'number from forloop '.$int.'<br>';
     }
     $var =  9;
     switch($var){
-        case 4:
-        echo 'var is 4';
+        case 1:
+        echo 'var is 4<br>';
         break;
         case 5:
-        echo 'var is 5';
+        echo 'var is 5<br>';
         break;
         case 6:
-        echo 'var is 6';
+        echo 'var is 6<br>';
         break;
         case 7:
-        echo 'var is 7';
+        echo 'var is 7<br>';
         break;
-        case 8:
-        echo 'var is 8';
+        case 19:
+        echo 'var is 8<br>';
         break;
         default:
-        echo 'var is none of the cases';
+        echo 'var is none of the cases<br>';
         break;
     }
 ?>
