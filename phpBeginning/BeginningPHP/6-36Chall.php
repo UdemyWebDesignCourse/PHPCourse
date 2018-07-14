@@ -16,7 +16,7 @@
 <body>
 <form action="6-36Chall.php" method=post>
 <input type="text" placeholder="submit it" name="catchme">
-    <input type="submit">
+    <input type="submit" value="submit">
 </form>
 
      

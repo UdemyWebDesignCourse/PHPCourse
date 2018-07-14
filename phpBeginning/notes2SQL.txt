@@ -1,0 +1,11 @@
+CRUD - Stands for Create Read Update Delete
+======================================================================================
+CREATE DATABASE database name - will create a database known as name;
+SELECT * FROM tablename - Select all from table
+mysqli_fetch_row($result) - returns a regular array with name value pairs 
+mysqli_fetch_assoc($result) - returns a associative array which looks better  
+------------------------------------------------------------------
+hot key to get quick css or html classes from bootstrap or another css file
+    div.className - then enter will create the whole html div tags & the .classname will throw the class name in the div shortcut fastest
+    form - then enter will create a form tag
+    input - then enter will create a input tag
