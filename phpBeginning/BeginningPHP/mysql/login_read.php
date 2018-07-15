@@ -6,6 +6,11 @@
             echo 'You are connected!';
         } else{
             die("Database connection refused");
+        }$connection = mysqli_connect('localhost','root','','loginapp');
+        if($connection){
+            echo 'You are connected!';
+        } else{
+            die("Database connection refused");
         }
         $query = "SELECT * FROM users";
         $result = mysqli_query($connection,$query);
